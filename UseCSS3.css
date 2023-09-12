@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif", "cursive";
+}
+
+body {
+  background-image: url("img/bg_1_1.PNG");
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: center;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+nav a {
+  color: inherit;
+  /* 移除超連結顏色 */
+  text-decoration: none;
+  /* 移除超連結底線 */
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+
+}
+
+
+.title {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:active {
+
+  display: block;
+  background-color: transparent;
+  color: #ff0084cd;
+  text-align: center;
+ 
+  text-decoration: none;
+}
+
+.main {
+margin-top: 50px;
+  background-color: transparent;
+
+
+
+}
+
+.container {
+  display: flex; 
+  flex-direction: column; 
+  height:​ 100%​;
+padding: 0px;
+width: 100%;
+justify-content: center;
+ }
+
+.icon_Download {
+  position:relative;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+
+}
+
+
+.btn_Download {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  flex-direction: row;
+  justify-content: Space-around;
+  display: flex;
+  float: left;
+  z-index: 100;
+}
+
+.btn_Download button {
+  position: relative;
+  width: 60%;
+  padding: 14px 16px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.438);
+  background:  transparent;
+  font-weight: bold;
+  z-index: 100;
+  border: 3px solid #db408f;
+font-size:20px;
+  border-radius: 15px;
+  color: #db408f;
+ 
+}
+.btn_Download button:active {
+  
+  background: #78929ab7;
+
+  color: #ffffff;
+}
+
+
+
+footer {
+  padding: 8px 20px;
+  font-size: 10px;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+ z-index: 999;
+ position:absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+}

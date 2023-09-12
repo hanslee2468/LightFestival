@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif", "cursive";
+}
+
+body {
+  background-image: url("img/bg_1_1.PNG");
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: rgb(0, 0, 0);
+ 
+  
+}
+
+nav a {
+  color: inherit;
+  /* 移除超連結顏色 */
+  text-decoration: none;
+  /* 移除超連結底線 */
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+
+}
+.title {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+li {
+  float: right;
+  
+}
+li a {
+
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:active {
+
+  display: block;
+  background-color: transparent;
+  color: #ff0084cd;
+  text-align: center;
+ 
+  text-decoration: none;
+}
+
+
+.main {
+  width: 100%;
+  top: 0;
+  position:relative;
+  padding: 60px 20px 0px 20px;
+  
+}
+.pri{
+  padding: 20px;
+  width: 100%;
+}
+footer {
+  padding: 8px 20px;
+  font-size: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+ z-index: 999;
+ width: 100%;
+ position:relative;
+bottom: 0;
+
+ text-align: center;
+}
+
+
+
+@media screen and (min-width:393px){ 
+  
+  
+}
+
+@media screen and (min-width:1000px){ 
+
+}
